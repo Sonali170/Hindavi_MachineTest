@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,29 @@
 		476B3E6725B43DF800063C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476B3E6525B43DF800063C15 /* LaunchScreen.storyboard */; };
 		476B3E7225B43DF800063C15 /* HindaviTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E7125B43DF800063C15 /* HindaviTestTests.swift */; };
 		476B3E7D25B43DF800063C15 /* HindaviTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E7C25B43DF800063C15 /* HindaviTestUITests.swift */; };
+		476B3E8E25B43F6000063C15 /* GAApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E8B25B43F6000063C15 /* GAApiManager.swift */; };
+		476B3E8F25B43F6000063C15 /* GAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E8C25B43F6000063C15 /* GAConstants.swift */; };
+		476B3E9025B43F6000063C15 /* GAServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E8D25B43F6000063C15 /* GAServiceManager.swift */; };
+		476B3E9325B4444200063C15 /* HTUserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E9225B4444200063C15 /* HTUserDetailViewController.swift */; };
+		476B3E9625B44D1800063C15 /* HTUserListModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3E9525B44D1800063C15 /* HTUserListModelClass.swift */; };
+		476B3ED925B49E7700063C15 /* HTSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3ED825B49E7700063C15 /* HTSwipeView.swift */; };
+		476B3EDB25B49E9F00063C15 /* HTSwipeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476B3EDA25B49E9F00063C15 /* HTSwipeView.xib */; };
+		476B3EDD25B4A32F00063C15 /* HTDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476B3EDC25B4A32F00063C15 /* HTDesignableView.swift */; };
+		47B5E3D125B598B30082418C /* HindaviTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E3CF25B598B30082418C /* HindaviTest.xcdatamodeld */; };
+		47B5E41225B5B7090082418C /* HTFavouriteUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E41125B5B7090082418C /* HTFavouriteUserViewController.swift */; };
+		47B5E41525B5B76D0082418C /* HTFavouriteUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E41325B5B76D0082418C /* HTFavouriteUserData.swift */; };
+		47B5E41625B5B76D0082418C /* HTFavouriteUserData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B5E41425B5B76D0082418C /* HTFavouriteUserData.xib */; };
+		47B5E42025B6132C0082418C /* HTCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E41F25B6132C0082418C /* HTCalendarView.swift */; };
+		47B5E42225B613440082418C /* HTCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B5E42125B613440082418C /* HTCalendarView.xib */; };
+		47B5E42425B615930082418C /* HTCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E42325B615930082418C /* HTCallView.swift */; };
+		47B5E42625B615A40082418C /* HTCallView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B5E42525B615A40082418C /* HTCallView.xib */; };
+		47B5E42825B615BA0082418C /* HTLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E42725B615BA0082418C /* HTLocationView.swift */; };
+		47B5E42A25B615CB0082418C /* HTLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B5E42925B615CB0082418C /* HTLocationView.xib */; };
+		47B5E42C25B615E20082418C /* HTLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5E42B25B615E20082418C /* HTLockView.swift */; };
+		47B5E42E25B615F80082418C /* HTLockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B5E42D25B615F80082418C /* HTLockView.xib */; };
+		66750D70801363EB6ADB4984 /* Pods_HindaviTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A260C2C63637CF11FD95E2B6 /* Pods_HindaviTestTests.framework */; };
+		A31A6FBBE77F9250E66473BA /* Pods_HindaviTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9D209092703E7424D45BD9 /* Pods_HindaviTest.framework */; };
+		C1FE8572AF862F0179B2A930 /* Pods_HindaviTest_HindaviTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1885AAE84F7B20C2868E298E /* Pods_HindaviTest_HindaviTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0904053C9D5D05C2A05A5C2C /* Pods-HindaviTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HindaviTest.debug.xcconfig"; path = "Target Support Files/Pods-HindaviTest/Pods-HindaviTest.debug.xcconfig"; sourceTree = "<group>"; };
+		1885AAE84F7B20C2868E298E /* Pods_HindaviTest_HindaviTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HindaviTest_HindaviTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F13D5F7451AE4BC70B3A105 /* Pods-HindaviTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HindaviTestTests.debug.xcconfig"; path = "Target Support Files/Pods-HindaviTestTests/Pods-HindaviTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		476B3E5725B43DF600063C15 /* HindaviTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HindaviTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476B3E5A25B43DF600063C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		476B3E5C25B43DF600063C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +75,32 @@
 		476B3E7825B43DF800063C15 /* HindaviTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HindaviTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		476B3E7C25B43DF800063C15 /* HindaviTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HindaviTestUITests.swift; sourceTree = "<group>"; };
 		476B3E7E25B43DF800063C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476B3E8B25B43F6000063C15 /* GAApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAApiManager.swift; sourceTree = "<group>"; };
+		476B3E8C25B43F6000063C15 /* GAConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAConstants.swift; sourceTree = "<group>"; };
+		476B3E8D25B43F6000063C15 /* GAServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAServiceManager.swift; sourceTree = "<group>"; };
+		476B3E9225B4444200063C15 /* HTUserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTUserDetailViewController.swift; sourceTree = "<group>"; };
+		476B3E9525B44D1800063C15 /* HTUserListModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTUserListModelClass.swift; sourceTree = "<group>"; };
+		476B3ED825B49E7700063C15 /* HTSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTSwipeView.swift; sourceTree = "<group>"; };
+		476B3EDA25B49E9F00063C15 /* HTSwipeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTSwipeView.xib; sourceTree = "<group>"; };
+		476B3EDC25B4A32F00063C15 /* HTDesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTDesignableView.swift; sourceTree = "<group>"; };
+		47B5E3D025B598B30082418C /* HindaviTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HindaviTest.xcdatamodel; sourceTree = "<group>"; };
+		47B5E41125B5B7090082418C /* HTFavouriteUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTFavouriteUserViewController.swift; sourceTree = "<group>"; };
+		47B5E41325B5B76D0082418C /* HTFavouriteUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTFavouriteUserData.swift; sourceTree = "<group>"; };
+		47B5E41425B5B76D0082418C /* HTFavouriteUserData.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTFavouriteUserData.xib; sourceTree = "<group>"; };
+		47B5E41F25B6132C0082418C /* HTCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTCalendarView.swift; sourceTree = "<group>"; };
+		47B5E42125B613440082418C /* HTCalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTCalendarView.xib; sourceTree = "<group>"; };
+		47B5E42325B615930082418C /* HTCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTCallView.swift; sourceTree = "<group>"; };
+		47B5E42525B615A40082418C /* HTCallView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTCallView.xib; sourceTree = "<group>"; };
+		47B5E42725B615BA0082418C /* HTLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTLocationView.swift; sourceTree = "<group>"; };
+		47B5E42925B615CB0082418C /* HTLocationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTLocationView.xib; sourceTree = "<group>"; };
+		47B5E42B25B615E20082418C /* HTLockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTLockView.swift; sourceTree = "<group>"; };
+		47B5E42D25B615F80082418C /* HTLockView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTLockView.xib; sourceTree = "<group>"; };
+		4F9D209092703E7424D45BD9 /* Pods_HindaviTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HindaviTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		583A708DAB87514970AB6F78 /* Pods-HindaviTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HindaviTestTests.release.xcconfig"; path = "Target Support Files/Pods-HindaviTestTests/Pods-HindaviTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C40F7612893495A951B0E96 /* Pods-HindaviTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HindaviTest.release.xcconfig"; path = "Target Support Files/Pods-HindaviTest/Pods-HindaviTest.release.xcconfig"; sourceTree = "<group>"; };
+		83CC89DD3EF5A3DFEFDA82D8 /* Pods-HindaviTest-HindaviTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HindaviTest-HindaviTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-HindaviTest-HindaviTestUITests/Pods-HindaviTest-HindaviTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A260C2C63637CF11FD95E2B6 /* Pods_HindaviTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HindaviTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3098493AFC04DBED9A08DE8 /* Pods-HindaviTest-HindaviTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HindaviTest-HindaviTestUITests.release.xcconfig"; path = "Target Support Files/Pods-HindaviTest-HindaviTestUITests/Pods-HindaviTest-HindaviTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31A6FBBE77F9250E66473BA /* Pods_HindaviTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66750D70801363EB6ADB4984 /* Pods_HindaviTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FE8572AF862F0179B2A930 /* Pods_HindaviTest_HindaviTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +138,8 @@
 				476B3E7025B43DF800063C15 /* HindaviTestTests */,
 				476B3E7B25B43DF800063C15 /* HindaviTestUITests */,
 				476B3E5825B43DF600063C15 /* Products */,
+				898A366C8F76A94BC5172CD4 /* Pods */,
+				91BC005F7C7337DCFBB7962A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +156,11 @@
 		476B3E5925B43DF600063C15 /* HindaviTest */ = {
 			isa = PBXGroup;
 			children = (
+				47B5E3CF25B598B30082418C /* HindaviTest.xcdatamodeld */,
+				476B3ED725B49E5200063C15 /* View */,
+				476B3E9425B44CF600063C15 /* Model */,
+				476B3E9125B4440900063C15 /* Controller */,
+				476B3E8A25B43F3900063C15 /* APIClasses */,
 				476B3E5A25B43DF600063C15 /* AppDelegate.swift */,
 				476B3E5C25B43DF600063C15 /* SceneDelegate.swift */,
 				476B3E5E25B43DF600063C15 /* ViewController.swift */,
@@ -128,6 +190,76 @@
 			path = HindaviTestUITests;
 			sourceTree = "<group>";
 		};
+		476B3E8A25B43F3900063C15 /* APIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				476B3E8B25B43F6000063C15 /* GAApiManager.swift */,
+				476B3E8C25B43F6000063C15 /* GAConstants.swift */,
+				476B3E8D25B43F6000063C15 /* GAServiceManager.swift */,
+			);
+			path = APIClasses;
+			sourceTree = "<group>";
+		};
+		476B3E9125B4440900063C15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				476B3E9225B4444200063C15 /* HTUserDetailViewController.swift */,
+				47B5E41125B5B7090082418C /* HTFavouriteUserViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		476B3E9425B44CF600063C15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				476B3E9525B44D1800063C15 /* HTUserListModelClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		476B3ED725B49E5200063C15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				476B3ED825B49E7700063C15 /* HTSwipeView.swift */,
+				476B3EDA25B49E9F00063C15 /* HTSwipeView.xib */,
+				476B3EDC25B4A32F00063C15 /* HTDesignableView.swift */,
+				47B5E41325B5B76D0082418C /* HTFavouriteUserData.swift */,
+				47B5E41425B5B76D0082418C /* HTFavouriteUserData.xib */,
+				47B5E41F25B6132C0082418C /* HTCalendarView.swift */,
+				47B5E42125B613440082418C /* HTCalendarView.xib */,
+				47B5E42325B615930082418C /* HTCallView.swift */,
+				47B5E42525B615A40082418C /* HTCallView.xib */,
+				47B5E42725B615BA0082418C /* HTLocationView.swift */,
+				47B5E42925B615CB0082418C /* HTLocationView.xib */,
+				47B5E42B25B615E20082418C /* HTLockView.swift */,
+				47B5E42D25B615F80082418C /* HTLockView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		898A366C8F76A94BC5172CD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0904053C9D5D05C2A05A5C2C /* Pods-HindaviTest.debug.xcconfig */,
+				5C40F7612893495A951B0E96 /* Pods-HindaviTest.release.xcconfig */,
+				83CC89DD3EF5A3DFEFDA82D8 /* Pods-HindaviTest-HindaviTestUITests.debug.xcconfig */,
+				C3098493AFC04DBED9A08DE8 /* Pods-HindaviTest-HindaviTestUITests.release.xcconfig */,
+				2F13D5F7451AE4BC70B3A105 /* Pods-HindaviTestTests.debug.xcconfig */,
+				583A708DAB87514970AB6F78 /* Pods-HindaviTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91BC005F7C7337DCFBB7962A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9D209092703E7424D45BD9 /* Pods_HindaviTest.framework */,
+				1885AAE84F7B20C2868E298E /* Pods_HindaviTest_HindaviTestUITests.framework */,
+				A260C2C63637CF11FD95E2B6 /* Pods_HindaviTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 476B3E8125B43DF800063C15 /* Build configuration list for PBXNativeTarget "HindaviTest" */;
 			buildPhases = (
+				00F5C9D95DDD168D737E7286 /* [CP] Check Pods Manifest.lock */,
 				476B3E5325B43DF600063C15 /* Sources */,
 				476B3E5425B43DF600063C15 /* Frameworks */,
 				476B3E5525B43DF600063C15 /* Resources */,
+				FF3803400E9644B070719E4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 476B3E8425B43DF800063C15 /* Build configuration list for PBXNativeTarget "HindaviTestTests" */;
 			buildPhases = (
+				EFCC42798FC036BC5DC50A07 /* [CP] Check Pods Manifest.lock */,
 				476B3E6925B43DF800063C15 /* Sources */,
 				476B3E6A25B43DF800063C15 /* Frameworks */,
 				476B3E6B25B43DF800063C15 /* Resources */,
@@ -170,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 476B3E8725B43DF800063C15 /* Build configuration list for PBXNativeTarget "HindaviTestUITests" */;
 			buildPhases = (
+				AEDDEF9727C86A292B253452 /* [CP] Check Pods Manifest.lock */,
 				476B3E7425B43DF800063C15 /* Sources */,
 				476B3E7525B43DF800063C15 /* Frameworks */,
 				476B3E7625B43DF800063C15 /* Resources */,
+				39ADC0EBBD8083AED7B01541 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +369,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47B5E41625B5B76D0082418C /* HTFavouriteUserData.xib in Resources */,
+				47B5E42225B613440082418C /* HTCalendarView.xib in Resources */,
+				47B5E42625B615A40082418C /* HTCallView.xib in Resources */,
+				47B5E42A25B615CB0082418C /* HTLocationView.xib in Resources */,
 				476B3E6725B43DF800063C15 /* LaunchScreen.storyboard in Resources */,
 				476B3E6425B43DF800063C15 /* Assets.xcassets in Resources */,
 				476B3E6225B43DF600063C15 /* Main.storyboard in Resources */,
+				476B3EDB25B49E9F00063C15 /* HTSwipeView.xib in Resources */,
+				47B5E42E25B615F80082418C /* HTLockView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +397,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00F5C9D95DDD168D737E7286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HindaviTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39ADC0EBBD8083AED7B01541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HindaviTest-HindaviTestUITests/Pods-HindaviTest-HindaviTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HindaviTest-HindaviTestUITests/Pods-HindaviTest-HindaviTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HindaviTest-HindaviTestUITests/Pods-HindaviTest-HindaviTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEDDEF9727C86A292B253452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HindaviTest-HindaviTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCC42798FC036BC5DC50A07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HindaviTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3803400E9644B070719E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HindaviTest/Pods-HindaviTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HindaviTest/Pods-HindaviTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HindaviTest/Pods-HindaviTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		476B3E5325B43DF600063C15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				476B3E5F25B43DF600063C15 /* ViewController.swift in Sources */,
+				476B3E8F25B43F6000063C15 /* GAConstants.swift in Sources */,
+				476B3EDD25B4A32F00063C15 /* HTDesignableView.swift in Sources */,
+				476B3E9325B4444200063C15 /* HTUserDetailViewController.swift in Sources */,
+				476B3E9625B44D1800063C15 /* HTUserListModelClass.swift in Sources */,
+				47B5E42825B615BA0082418C /* HTLocationView.swift in Sources */,
+				47B5E42C25B615E20082418C /* HTLockView.swift in Sources */,
+				47B5E41225B5B7090082418C /* HTFavouriteUserViewController.swift in Sources */,
+				47B5E42025B6132C0082418C /* HTCalendarView.swift in Sources */,
 				476B3E5B25B43DF600063C15 /* AppDelegate.swift in Sources */,
+				47B5E42425B615930082418C /* HTCallView.swift in Sources */,
+				476B3E8E25B43F6000063C15 /* GAApiManager.swift in Sources */,
+				476B3ED925B49E7700063C15 /* HTSwipeView.swift in Sources */,
+				47B5E3D125B598B30082418C /* HindaviTest.xcdatamodeld in Sources */,
+				47B5E41525B5B76D0082418C /* HTFavouriteUserData.swift in Sources */,
 				476B3E5D25B43DF600063C15 /* SceneDelegate.swift in Sources */,
+				476B3E9025B43F6000063C15 /* GAServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +692,7 @@
 		};
 		476B3E8225B43DF800063C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0904053C9D5D05C2A05A5C2C /* Pods-HindaviTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +710,7 @@
 		};
 		476B3E8325B43DF800063C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C40F7612893495A951B0E96 /* Pods-HindaviTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +728,7 @@
 		};
 		476B3E8525B43DF800063C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F13D5F7451AE4BC70B3A105 /* Pods-HindaviTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +750,7 @@
 		};
 		476B3E8625B43DF800063C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583A708DAB87514970AB6F78 /* Pods-HindaviTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +772,7 @@
 		};
 		476B3E8825B43DF800063C15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CC89DD3EF5A3DFEFDA82D8 /* Pods-HindaviTest-HindaviTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +792,7 @@
 		};
 		476B3E8925B43DF800063C15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3098493AFC04DBED9A08DE8 /* Pods-HindaviTest-HindaviTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +850,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47B5E3CF25B598B30082418C /* HindaviTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47B5E3D025B598B30082418C /* HindaviTest.xcdatamodel */,
+			);
+			currentVersion = 47B5E3D025B598B30082418C /* HindaviTest.xcdatamodel */;
+			path = HindaviTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 476B3E4F25B43DF600063C15 /* Project object */;
 }

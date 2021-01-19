@@ -1,0 +1,6 @@
+framework module Pods_HindaviTest_HindaviTestUITests {
+  umbrella header "Pods-HindaviTest-HindaviTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
